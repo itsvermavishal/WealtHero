@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WealtHero"
+        tools:targetApi="31">
+        <activity
+            android:name=".basic.newbie.chapter1.NewbieChapter1Topic3"
+            android:exported="false" />
+        <activity
+            android:name=".basic.newbie.chapter1.NewbieChapter1Topic2"
+            android:exported="false" />
+        <activity
+            android:name=".basic.newbie.chapter3.NewbieChapter3Topic1"
+            android:exported="false" />
+        <activity
+            android:name=".basic.newbie.chapter2.NewbieChapter2Topic1"
+            android:exported="false" />
+        <activity
+            android:name=".basic.newbie.chapter1.NewbieChapter1Topic1"
+            android:exported="false" />
+        <activity
+            android:name=".basic.BasicGoat"
+            android:exported="false" />
+        <activity
+            android:name=".basic.BasicExtraordinary"
+            android:exported="false" />
+        <activity
+            android:name=".basic.BasicTopper"
+            android:exported="false" />
+        <activity
+            android:name=".basic.BasicAverage"
+            android:exported="false" />
+        <activity
+            android:name=".basic.BasicNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.ComingSoon"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Others"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.PersonalFinance"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Fno"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Comodity"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Technical"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Fundamental"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard.Basic"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

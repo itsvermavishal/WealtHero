@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dashboard.Basic">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#D5C28F"
+        >
+
+        <TextView
+            android:id="@+id/basicmoduletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module : 01"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/basicsofmarkettxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Basics of Market" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:layout_marginTop="90dp"
+            android:background="#454072"/>
+
+        <TextView
+            android:id="@+id/basicsofmarketdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="22dp"
+            android:textColor="@color/black"
+            android:text="You clicked at right place. This can be the first step towards your joureney of learning , investing and increasing the wealth. Topics of this module will help you to undersatnd markets keyword like IPO, FNO, NSE, BSE, and others basic mostly used words. If anywere written &quot;Market/Markets&quot; take it as overall industry market or Stock market. We will not talk about vegetabels market. In the end of this module you will be able to understand how market works and meaning of market terminologies." />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basicnewbie"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp"
+                app:cardBackgroundColor="#454072"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/basicnewbieimg"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/day_fact_emoji"
+                        app:srcCompat="@drawable/lookatmeimoji" />
+
+                    <TextView
+                        android:id="@+id/basicnewbietxt"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:paddingRight="50dp"
+                        android:paddingLeft="50dp"
+                        android:paddingVertical="15dp"
+                        android:gravity="start|top"
+                        android:text="Newbie"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basicaverage"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp"
+                app:cardBackgroundColor="#454072"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/basicaveragemg"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/day_fact_emoji"
+                        app:srcCompat="@drawable/lookatmeimoji" />
+
+                    <TextView
+                        android:id="@+id/basicaveragetxt"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:paddingRight="50dp"
+                        android:paddingLeft="50dp"
+                        android:paddingVertical="15dp"
+                        android:gravity="start|top"
+                        android:text="Average"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basictopper"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp"
+                app:cardBackgroundColor="#454072"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/basictopperimg"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/day_fact_emoji"
+                        app:srcCompat="@drawable/lookatmeimoji" />
+
+                    <TextView
+                        android:id="@+id/basictoppertxt"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:paddingRight="50dp"
+                        android:paddingLeft="50dp"
+                        android:paddingVertical="15dp"
+                        android:gravity="start|top"
+                        android:text="Topper"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basicextraordinary"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp"
+                app:cardBackgroundColor="#454072"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/basicextraordinaryimg"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/day_fact_emoji"
+                        app:srcCompat="@drawable/lookatmeimoji" />
+
+                    <TextView
+                        android:id="@+id/basicextraordinarytxt"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:paddingRight="50dp"
+                        android:paddingLeft="50dp"
+                        android:paddingVertical="15dp"
+                        android:gravity="start|top"
+                        android:text="Extra Ordinary"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/basicgoat"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp"
+                app:cardBackgroundColor="#454072"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/basicgoatimg"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/day_fact_emoji"
+                        app:srcCompat="@drawable/lookatmeimoji" />
+
+                    <TextView
+                        android:id="@+id/basicgoattxt"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:paddingRight="50dp"
+                        android:paddingLeft="50dp"
+                        android:paddingVertical="15dp"
+                        android:gravity="start|top"
+                        android:text="GOAT"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/basicsofmarketlastline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:text="Now You Can Rock 💪"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
