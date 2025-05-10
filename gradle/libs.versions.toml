@@ -1,7 +1,10 @@
 [versions]
-agp = "8.9.0"
+agp = "8.9.1"
 cardview = "1.0.0"
+googleMaterial = "1.9.0"
+googleMaterialVersion = "1.10.0"
 gridlayout = "1.0.0"
+imageslideshow = "0.1.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -17,6 +20,7 @@ viewpager2 = "1.0.0"
 [libraries]
 cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
 gridlayout = { module = "androidx.gridlayout:gridlayout", version.ref = "gridlayout" }
+imageslideshow = { module = "com.github.denzcoskun:ImageSlideshow", version.ref = "imageslideshow" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -26,6 +30,8 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 material-v100 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+material-v1100 = { module = "com.google.android.material:material", version.ref = "googleMaterialVersion" }
+material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
 sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
 viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
 

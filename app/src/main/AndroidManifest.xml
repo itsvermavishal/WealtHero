@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" >
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,94 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WealtHero"
-        tools:targetApi="31" >
+        tools:targetApi="31">
+        <activity
+            android:name=".technical.TechnicalTopper"
+            android:exported="false" />
+        <activity
+            android:name=".technical.TechnicalNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".technical.TechnicalGoat"
+            android:exported="false" />
+        <activity
+            android:name=".technical.TechnicalExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".technical.TechnicalAverage"
+            android:exported="false" />
+        <activity
+            android:name=".personalfinance.PfNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".personalfinance.PfTopper"
+            android:exported="false" />
+        <activity
+            android:name=".personalfinance.PfGoat"
+            android:exported="false" />
+        <activity
+            android:name=".personalfinance.PfExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".personalfinance.PfAverage"
+            android:exported="false" />
+        <activity
+            android:name=".others.OthersNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".others.OthersTopper"
+            android:exported="false" />
+        <activity
+            android:name=".others.OthersGoat"
+            android:exported="false" />
+        <activity
+            android:name=".others.OthersExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".others.OthersAverage"
+            android:exported="false" />
+        <activity
+            android:name=".fno.FnoNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".fno.FnoTopper"
+            android:exported="false" />
+        <activity
+            android:name=".fno.FnoGoat"
+            android:exported="false" />
+        <activity
+            android:name=".fno.FnoExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".fno.FnoAverage"
+            android:exported="false" />
+        <activity
+            android:name=".comodity.ComodityNewbie"
+            android:exported="false" />
+        <activity
+            android:name=".comodity.ComodityGoat"
+            android:exported="false" />
+        <activity
+            android:name=".comodity.ComodityTopper"
+            android:exported="false" />
+        <activity
+            android:name=".comodity.ComodityExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".comodity.ComodityAverage"
+            android:exported="false" />
+        <activity
+            android:name=".fundamental.FundamentalGoat"
+            android:exported="false" />
+        <activity
+            android:name=".fundamental.FundamentalExceptional"
+            android:exported="false" />
+        <activity
+            android:name=".fundamental.FundamentalTopper"
+            android:exported="false" />
+        <activity
+            android:name=".fundamental.FundamentalNewbie"
+            android:exported="false" />
         <activity
             android:name=".basic.newbie.chapter1.BasicNewbieChapter1"
             android:exported="false" />
@@ -34,7 +121,7 @@
             android:name=".basic.BasicGoat"
             android:exported="false" />
         <activity
-            android:name=".basic.BasicExtraordinary"
+            android:name=".basic.BasicExceptional"
             android:exported="false" />
         <activity
             android:name=".basic.BasicTopper"
@@ -74,7 +161,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

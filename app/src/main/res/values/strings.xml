@@ -5,7 +5,7 @@
     <string name="f_amp_0"><![CDATA[F & 0]]></string>
     <string name="dashboard_top_line"><![CDATA[Learn & Invest like a Pro]]></string>
     <string name="day_fact_emoji">Todays fact emoji</string>
-    <string name="day_fact">Today\'s fact: Potential capital gains from owning a stock that grows in value over time.</string>
+    <string name="day_fact">Potential capital gains from owning a stock that grows in value over time.</string>
     <string name="scroll_view_image_1">Scroll View Image 1</string>
     <string name="newsdetails">NewsDetails</string>
     <string name="scroll_view_image_2">scroll_view_image_2</string>
@@ -34,6 +34,8 @@
     <string name="craftedwithlove">Crafted with 💛</string>
     <string name="basictextview">BasicTextView</string>
     <string name="comigSoonpage">Wow! it\'s great hope you have learned all the previous modules.We are working hard in exploring new things. For you we are trying to make one of the best plateform where you can learn how to increase wealth. It\'s taking more time beacuse great things take time. Please keep patience we will add soon..</string>
-    <string name="comingSoonPageThanks">Thank you for your support 🙏 .</string>
+    <string name="comingSoonPageThanks">Will be greatful for your support 🙏 </string>
     <string name="comingSoonPageSorry">Deeply Regret ! \nSoory for the Inconvenience.</string>
+    <string name="it_s_previous_button">it\'s previous button</string>
+    <string name="app_name1">WealtHero</string>
 </resources>

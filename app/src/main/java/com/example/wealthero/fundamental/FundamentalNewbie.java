@@ -1,4 +1,4 @@
-package com.example.wealthero.fundamental.Newbie;
+package com.example.wealthero.fundamental;
 
 import android.os.Bundle;
 

@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.wealthero.R;
 import com.example.wealthero.basic.BasicAverage;
-import com.example.wealthero.basic.BasicExtraordinary;
+import com.example.wealthero.basic.BasicExceptional;
 import com.example.wealthero.basic.BasicGoat;
 import com.example.wealthero.basic.BasicNewbie;
 import com.example.wealthero.basic.BasicTopper;
@@ -48,10 +48,10 @@ public class Basic extends AppCompatActivity {
             startActivity(topperintent);
         });
 
-        CardView extraordinary = findViewById(R.id.basicextraordinary);
-        extraordinary.setOnClickListener(v -> {
-            Intent extraordinaryintent = new Intent(this, BasicExtraordinary.class);
-            startActivity(extraordinaryintent);
+        CardView exceptional = findViewById(R.id.basicexceptional);
+        exceptional.setOnClickListener(v -> {
+            Intent exceptionalintent = new Intent(this, BasicExceptional.class);
+            startActivity(exceptionalintent);
         });
 
         CardView goat = findViewById(R.id.basicgoat);

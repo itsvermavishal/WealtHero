@@ -1,4 +1,4 @@
-package com.example.wealthero.basic;
+package com.example.wealthero.fno;
 
 import android.os.Bundle;
 
@@ -10,13 +10,13 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.wealthero.R;
 
-public class BasicExceptional extends AppCompatActivity {
+public class FnoExceptional extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_basic_extraordinary);
+        setContentView(R.layout.activity_fno_exceptional);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
