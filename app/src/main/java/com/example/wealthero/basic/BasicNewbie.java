@@ -11,6 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.wealthero.R;
+import com.example.wealthero.basic.newbie.chapter1.BasicNewbieChapter1;
 import com.example.wealthero.basic.newbie.chapter1.NewbieChapter1Topic1;
 import com.example.wealthero.basic.newbie.chapter2.NewbieChapter2Topic1;
 import com.example.wealthero.basic.newbie.chapter3.NewbieChapter3Topic1;

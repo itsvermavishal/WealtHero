@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basic.newbie.chapter1.NewbieChapter1Topic1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonbackground2"
+                    android:paddingTop="5dp"
+                    android:text="Chapter : 1 | Need to invest"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="9dp"
+                    android:paddingTop="5dp"
+                    android:text="Topic : 1 | Why should I invest"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#454072" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:src="@drawable/whyshouldiinvest" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:text="What Happens If You Choose Not to Invest? \n \n
+Let's first understand the consequences of not investing your savings. \n \n
+
+Imagine you have a monthly income of ₹50,000, out of which ₹30,000 is spent on essential expenses like rent, food, transportation, shopping, medical bills, etc. This leaves you with a surplus of ₹20,000 every month. \n \n
+
+For simplicity, let's keep the tax factor out of this discussion. \n \n
+
+Now, consider these basic assumptions: \n \n
+
+     • Your employer offers you a 10% salary hike every year.\n \n
+     • The cost of living increases by 8% annually.\n \n
+     • You are currently 30 years old and plan to retire by 50, meaning you have 20 working years left.\n \n
+     • You have no plans to work after retirement.\n \n
+     • Your expenses remain constant, and no additional expenses are expected.\n \n
+     • The surplus of ₹20,000 per month is kept as hard cash without any investment.\n \n
+     • So you should invest.\n \n"
+                            android:textSize="17sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:orientation="horizontal">
+
+
+                            <ImageButton
+                                android:id="@+id/newbiechapter1topic1buttonnext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="40dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="40dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/buttonbackground"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                app:srcCompat="@drawable/rightarrow" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

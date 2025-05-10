@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#D5C28F"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module : 01"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Basics of Market" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:layout_marginTop="90dp"
+            android:background="#454072"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="22dp"
+            android:textColor="@color/black"
+            android:text="You clicked at right place. This can be the first step towards your joureney of learning , investing and increasing the wealth. Topics of this module will help you to undersatnd markets keyword like IPO, FNO, NSE, BSE, and others basic mostly used words. If anywere written &quot;Market/Markets&quot; take it as overall industry market or Stock market. We will not talk about vegetabels market. In the end of this module you will be able to understand how market works and meaning of market terminologies." />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -41,4 +41,6 @@ dependencies {
     implementation libs.library
     implementation libs.material.v100
     implementation libs.gridlayout
+    implementation libs.viewpager2
+    implementation libs.sdp.android
 }

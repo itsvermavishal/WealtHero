@@ -30,10 +30,11 @@ public class NewbieChapter1Topic1 extends AppCompatActivity {
             return insets;
         });
 
-        ImageButton newbiechapter1topic1buttonnext = findViewById(R.id.newbiechapter1topic1buttonnext);
+        ImageButton newbiechapter1topic1buttonnext = findViewById(R.id.btnNext);
         newbiechapter1topic1buttonnext.setOnClickListener(v -> {
             Intent newbiechapter1topic1buttonnextintent = new Intent(this, NewbieChapter1Topic2.class);
             startActivity(newbiechapter1topic1buttonnextintent);
+            finishAfterTransition();
         });
 
         //  Initialize Gesture Detector
@@ -48,6 +49,7 @@ public class NewbieChapter1Topic1 extends AppCompatActivity {
         private static final int SWIPE_THRESHOLD = 100;
         private static final int SWIPE_VELOCITY_THRESHOLD = 100;
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+            assert e1 != null;
             float diffX = e2.getX() - e1.getX();
 
             if (Math.abs(diffX) > SWIPE_THRESHOLD && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
@@ -56,6 +58,7 @@ public class NewbieChapter1Topic1 extends AppCompatActivity {
                     Intent intent = new Intent(NewbieChapter1Topic1.this, NewbieChapter1Topic2.class);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    finishAfterTransition();
                 }
                 return true;
             }

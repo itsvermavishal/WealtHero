@@ -36,7 +36,7 @@
                     android:layout_marginTop="9dp"
                     android:layout_marginEnd="30dp"
                     android:paddingTop="5dp"
-                    android:text="Chapter : 1 | Need to invest"
+                    android:text="Chapter : 2 | Need to invest"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -218,7 +218,7 @@ Now, consider these basic assumptions: \n \n
 
 
                             <ImageButton
-                                android:id="@+id/newbiechapter1topic1buttonnext"
+                                android:id="@+id/newbiechapter2topic1buttonnext"
                                 android:layout_width="wrap_content"
                                 android:layout_height="40dp"
                                 android:layout_marginLeft="40dp"

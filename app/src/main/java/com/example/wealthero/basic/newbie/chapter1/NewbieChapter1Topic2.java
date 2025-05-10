@@ -29,16 +29,18 @@ public class NewbieChapter1Topic2 extends AppCompatActivity {
             return insets;
         });
 
-        ImageButton newbiechapter1topic2buttonprevious = findViewById(R.id.newbiechapter1topic2buttonprevious);
+        ImageButton newbiechapter1topic2buttonprevious = findViewById(R.id.btnPrevious);
         newbiechapter1topic2buttonprevious.setOnClickListener(v -> {
             Intent newbiechapter1topic2buttonpreviousintent = new Intent(this, NewbieChapter1Topic1.class);
             startActivity(newbiechapter1topic2buttonpreviousintent);
+            finishAfterTransition();
         });
 
-        ImageButton newbiechapter1topic2buttonnext = findViewById(R.id.newbiechapter1topic2buttonnext);
+        ImageButton newbiechapter1topic2buttonnext = findViewById(R.id.btnNext);
         newbiechapter1topic2buttonnext.setOnClickListener(v -> {
             Intent newbiechapter1topic2buttonnextintent = new Intent(this, NewbieChapter1Topic3.class);
             startActivity(newbiechapter1topic2buttonnextintent);
+            finishAfterTransition();
         });
 
         gestureDetector = new GestureDetector(this, new GestureListener());
@@ -53,6 +55,7 @@ public class NewbieChapter1Topic2 extends AppCompatActivity {
         private static final int SWIPE_VELOCITY_THRESHOLD = 100;
 
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+            assert e1 != null;
             float diffX = e2.getX() - e1.getX();
 
             if (Math.abs(diffX) > SWIPE_THRESHOLD && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
@@ -61,11 +64,13 @@ public class NewbieChapter1Topic2 extends AppCompatActivity {
                     Intent intent = new Intent(NewbieChapter1Topic2.this, NewbieChapter1Topic3.class);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    finishAfterTransition();
                 } else {
                     // Swipe right -> Previous Activity (Main Activity)
                     Intent intent = new Intent(NewbieChapter1Topic2.this, NewbieChapter1Topic1.class);
                     startActivity(intent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
+                    finishAfterTransition();
                 }
                 return true;
             }
